@@ -1,0 +1,25 @@
+{
+    "name": "lazhboard/lazadaOpp",
+    "description": "Lazada open platform",
+    "type": "project",
+    "homepage": "https://github.com/lazhboard/lazadaOpp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aminaminamin93",
+            "email": ""
+        }
+    ],
+    "keywords": ["lazada", "laravel", "sdk", "api"],
+    "require": {
+	"php": ">=5.4.0",
+        "illuminate/support": "~5.0|~5.1|~5.2|~5.3|~5.4|~5.5",
+    },
+   "autoload": {
+        "psr-4": {
+	    "lazhboard\\LazopClient\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
