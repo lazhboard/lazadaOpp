@@ -16,10 +16,19 @@
         "guzzlehttp/guzzle": "~6.0",
         "spatie/array-to-xml": "^2.1"
     },
-    "require-dev": {},
+    "require-dev": {
+
+    },
     "autoload": {
       "psr-4": {
         "Lazhboard\\LazadaOpp\\": "src/"
       }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lazhboard\\LazadaOpp\\Autoloader"
+            ]
+        }
     }
 }
