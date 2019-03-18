@@ -1,32 +1,24 @@
 {
-    "name": "lazhboard/lazada-opp",
-    "description": "Lazada open platform",
-    "type": "project",
-    "homepage": "https://github.com/lazhboard/lazadaOpp",
+    "name": "lazhboard/lazada-oop",
+    "description": "Interaction with the lazada open platform api for seller",
     "license": "MIT",
+    "keywords": ["lazada", "sellercenter"],
     "authors": [
         {
-            "name": "aminaminamin93",
+            "name": "Lazhboard",
             "email": "aminaminamin.official@gmail.com"
         }
     ],
-	"minimum-stability": "dev",
+    "minimum-stability": "dev",
     "require": {
         "php": ">= 5.4",
         "guzzlehttp/guzzle": "~6.0",
         "spatie/array-to-xml": "^2.1"
     },
-    "require-dev": {
-
-    },
-	"autoload": {
-        "psr-0": {
-            "Lazhboard\\LazadaOpp\\": "src/"
-        }
-    },
-    "autoload-dev": {
+    "require-dev": {},
+    "autoload": {
       "psr-4": {
-        "Lazhboard\\LazadaOpp\\": "src/"
+        "lazhboard\\": "src/lazop"
       }
     }
 }
