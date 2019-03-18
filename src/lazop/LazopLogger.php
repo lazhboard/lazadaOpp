@@ -1,4 +1,6 @@
 <?php
+namespace lazhboard;
+
 class LazopLogger
 {
 	public $conf = array(

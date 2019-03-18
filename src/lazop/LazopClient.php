@@ -1,4 +1,8 @@
 <?php
+namespace lazhboard;
+
+define('LAZOP_SDK_WORK_DIR', '../');
+
 class LazopClient
 {
 	public $appkey;

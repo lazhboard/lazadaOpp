@@ -1,4 +1,6 @@
 <?php
+namespace lazhboard;
+
 class Constants
 {
 	static $log_level_debug = "DEBUG";
