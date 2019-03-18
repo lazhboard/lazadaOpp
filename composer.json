@@ -28,12 +28,5 @@
       "psr-4": {
         "Lazhboard\\LazadaOpp\\": "src/"
       }
-    },
-    //"extra": {
-    //    "laravel": {
-    //        "providers": [
-    //            "Lazhboard\\LazadaOpp\\Autoloader"
-    //        ]
-    //    }
-    //}
+    }
 }
