@@ -29,11 +29,11 @@
         "Lazhboard\\LazadaOpp\\": "src/"
       }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Lazhboard\\LazadaOpp\\Autoloader"
-            ]
-        }
-    }
+    //"extra": {
+    //    "laravel": {
+    //        "providers": [
+    //            "Lazhboard\\LazadaOpp\\Autoloader"
+    //        ]
+    //    }
+    //}
 }
